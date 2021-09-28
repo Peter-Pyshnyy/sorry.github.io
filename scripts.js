@@ -1,5 +1,6 @@
-let audio = new Audio("mediafiles/heh.mp3");
+let audio = new Audio("./mediafiles/heh.mp3");
 let curtain = document.getElementById("curtain");
+
 document.addEventListener("mousemove", (e) => {
   //distance between mouse and the dot (Pythagoras)
   let a =
