@@ -1,0 +1,32 @@
+body {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curtain {
+  height: 95vh;
+  width: 90vw;
+  background: rgb(0, 0, 0);
+  position: absolute;
+}
+
+.heher {
+  height: 95vh;
+  width: 90vw;
+  background: url(mediafiles/heh.jpg) 0 0/100% auto no-repeat;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 300px;
+  left: 300px;
+}
