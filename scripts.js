@@ -7,5 +7,8 @@ document.addEventListener("mousemove", (e) => {
     Math.sqrt(Math.pow(e.clientY - 302, 2) + Math.pow(e.clientX - 302, 2)) *
     0.0035; //*0.0035 fo fading in-out
   curtain.style.background = `rgb(0,0,0,${a})`;
-  if (a < 0.03) audio.play();
+});
+
+document.addEventListener("click", (e) => {
+  if ((e.target.id = "dot")) audio.play();
 });
